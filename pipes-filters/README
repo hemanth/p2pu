@@ -1,0 +1,1 @@
+"A pipeline consists of a chain of processing elements (processes, threads, coroutines, etc..), arranged so that the output of each element is the input of the next. Usually some amount of buffering is provided between consecutive elements. The information that flows in these pipelines is often a stream of records, bytes or bits."

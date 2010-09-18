@@ -1,0 +1,1 @@
+"Redirection - the capability to change the input stream to come from, or the output/error stream to go to a file. The basic operators for this are < for input redirection, > for output redirection and 2> for error redirection."
