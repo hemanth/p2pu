@@ -1,1 +1,31 @@
 This repo is for Mozilla p2pu's scripting 101 course 
+
+Summary
+
+The KISS Principle of "Keep it Simple, Stupid", is the main intention of the whole scripting world. You could be Web Monkeys or command line junkies, scripting is the most important ingredient.
+
+The below is just an outline of the course, which would be covering the major CLI based scripting side of shell, perl, ruby and python
+
+    Why scripting ?
+    Getting Started.
+    The Variables.
+    Conditionals Execution.
+    The Loops.
+    Redirections.
+    Pipes and Filters.
+    Traps.
+    Functions.
+    Interactive Scripts.
+
+What types of things will the scripts be doing?
+
+Everything from simple automation to heavy data crunching, depending on the class, it could start with basics and then go for advance levels say like GUI with scripts. If all in an intermediate level, basics can be skipped.
+
+How will knowing these skills make someone a better web developer?
+
+As a web developer it's always better for anyone to know how to deploy his app on an engine, there are many web programming languages available, consider the booming once like Ruby on Rails and Django, if would be easier and more better if the user who is interested to work on those, if he knows the fundamentals of the Ruby or Python or in fact PHP for that matter.
+When it comes to automation and quick and dirty jobs, simple scripts have proven to be very powerful.
+
+About the command line :
+
+Yes undoubtedly let it be a MAC user [ after all it's base is Free BSD ] CLI makes things easier but how might be the question, lets take a simple example of regularly updating a git repo and backing up in there server on the common tasks, which can be a piece of cake on the CLI.
