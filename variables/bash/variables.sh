@@ -22,35 +22,55 @@ set
 
 echo "There are other kinds of variables as well."
 
-###String Variables
+###String Variables###
 
 stringvar="I am a string variable." #Declare a variable
 echo $stringvar #Display variable
 echo
 
-###Interger Variable
+###Interger Variable###
 
-integer1=1 #Declare integer1 and assign it a value of 1
+#Declare integer1 and assign it a value of 1
+integer1=1 
 echo $integer1
-integer1="hi" #Reassign it the string "hi"
+#Reassign it the string "hi"
+integer1="hi"
 echo $integer1
 echo
 
 #What if we want to make sure a variable can only be assigned an integer?
 #In this case, we use the declare command, with the -i option
 
-declare -i integer2=2 #Declare integer2 and assign a value of 2
+#Declare integer2 and assign a value of 2
+declare -i integer2=2
 echo $integer2
-integer2="hi" #We try to reassign with the "hi" string, but it fails
+#We try to reassign with the "hi" string, but it fails
+integer2="hi" 
 echo $integer2 #Should display 0.
 #Question: Why does it display 0? What actually happens to the variable?
 echo
 
-###Constants
+###Constant Variables###
 #Variables can become constants by being declared readonly
 #This can be done with the readonly command
 
-readonly stuckonyou="Can't take me away!" #Declare stuckonyou and make it readonly
+#Declare stuckonyou and make it readonly
+readonly stuckonyou="Can't take me away!"
 echo $stuckonyou
-stuckonyou="BUT I'LL STILL TRY!" #Try to assign it another string
+#Try to assign it another string
+stuckonyou="BUT I'LL STILL TRY!" 
 echo $stuckonyou #Fail!
+echo
+
+###Array Variables###
+#Arrays are variables that contain several values within it.
+
+#Declare an array varible
+declare -a myarray
+#Fill the array with values
+myarray=(apple banana grape)
+#Display variables in array
+echo ${myarray[0]}
+echo ${myarray[1]}
+echo ${myarray[2]}
+echo ${myarray[*]}
