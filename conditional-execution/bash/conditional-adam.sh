@@ -11,7 +11,7 @@ elif [[ age -ge 12 && age -le 13 ]]; then
 	echo -n "A boy of girl going through puberty!"
 elif [[ age -ge 14 && age -le 18 ]]; then
 	echo -n "A teenage!"
-elif [[ age -ge 10 && age -le 59 ]]; then
+elif [[ age -ge 19 && age -le 59 ]]; then
 	echo -n "A matured man or woman!"
 elif [[ age -ge 60 ]]; then
 	echo -n "An old man or woman!"
