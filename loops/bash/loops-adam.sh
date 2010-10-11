@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Demonstration of a For Loop
-for i in $(pwd); do
+for i in $PWD; do
 	echo item: $i
 done
 
