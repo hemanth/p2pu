@@ -40,7 +40,6 @@ print num2
 #print num + 10
 # TypeError: cannot concatenate 'str' and 'int' objects
 
-
 print num2 + 10
 print 
 
